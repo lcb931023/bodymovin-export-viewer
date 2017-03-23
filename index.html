@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Bodymovin Viewer</title>
+    <style media="screen">
+      body {
+        background: #232323;
+        font-family: sans-serif;
+        color: #c8c8c8;
+      }
+      #svgContainer {
+        background: #232323;
+        line-height: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Bodymovin Export Viewer</h1>
+    <div id="svgContainer">
+
+    </div>
+
+    <label for="load">Load this JSON file: </label>
+    <input id="input-file" type="file" accept=".json" name="load" value="">
+
+    <script src="vendor/bodymovin.js" charset="utf-8"></script>
+    <script src="main.js" charset="utf-8"></script>
+  </body>
+</html>
